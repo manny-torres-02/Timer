@@ -13,7 +13,7 @@ function App() {
         <div className="container">
         <h1> The Timer</h1>
         {/* SET HOURS, MINS   */}
-        <TimeInput/>
+        <TimeInput unit="minutes"/>
         {/* TIMER SECTION  */}
         {/* START/STOP  */}
       </div>

@@ -1,9 +1,13 @@
+import { props } from 'bluebird'
 import React from 'react'
 
-const TimeInput= ()=> {
+const TimeInput= (props)=> {
     return(
     <form>
-        <label> hello</label>
+        <label> {props.unit} </label>
+        <button></button>
+        <span></span>
+        <button></button>
     </form>
     )
 }
