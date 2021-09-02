@@ -1,13 +1,15 @@
-import { props } from 'bluebird'
+
 import React from 'react'
+// import { FontAwesomeIcon } from 'react-icons/fa' 
 
 const TimeInput= (props)=> {
     return(
     <form>
         <label> {props.unit} </label>
-        <button></button>
-        <span></span>
-        <button></button>
+        <button className="" i>+</button>
+        <span>30</span>
+        <button className="">-</button>
+        
     </form>
     )
 }
